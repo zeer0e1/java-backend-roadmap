@@ -8,7 +8,6 @@ Neste dia foram praticados:
 - instanciação de um objeto e uso de referências para acessar o mesmo objeto.
 
 ## Como executar
-
 Abra o projeto no IntelliJ IDEA e execute `Main.java`, dentro de `src/dia02`.
 
 Também é possível compilar e executar pelo terminal, a partir da pasta `src`:

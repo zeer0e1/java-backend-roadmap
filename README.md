@@ -6,48 +6,32 @@ Repositório criado para acompanhar minha evolução nos estudos de Java.
 
 Estudar os fundamentos da linguagem Java e evoluir gradualmente para desenvolvimento backend com Spring Boot.
 
-## ✅ Dia 01 - Fundamentos
+## ✅ Dia 01 — Fundamentos
 
 Conteúdos estudados:
 
-- JVM
-- Estrutura de um programa Java
-- Classes
-- Objetos
-- Atributos
-- Métodos
-- Parâmetros
-- Método `main`
-- `System.out.println`
-- Criação de objetos com `new`
+- JVM;
+- estrutura de um programa Java;
+- classes, objetos e atributos;
+- métodos e parâmetros;
+- método `main`;
+- `System.out.println`;
+- criação de objetos com `new`.
 
-## 💻 Exercício realizado
+### Exercício realizado
 
-Criação de uma classe `ContaBancaria` com:
+Criação da classe `ContaBancaria`, com titular, saldo e métodos para exibir dados, adicionar saldo e sacar um valor.
 
-- titular
-- saldo
-- método para exibir dados
-- método para adicionar saldo
-- método para sacar valor
+Os arquivos estão em [`01-Fundamentos/primeiro-programa/src/dia01`](01-Fundamentos/primeiro-programa/src/dia01).
 
-Exemplo:
+## ✅ Dia 02 — Variáveis, tipos e objetos
 
-```java
-public class dia01.ContaBancaria {
+Conteúdos praticados:
 
-    String titular;
-    float saldo;
+- declaração de variáveis e tipos `int`, `float`, `double` e `String`;
+- cálculo da área de um retângulo;
+- classe `Pessoa` com o atributo `nome`;
+- instanciação de um objeto com `new`;
+- variáveis de referência apontando para o mesmo objeto.
 
-    void dados() {
-        System.out.println("Meu nome é " + titular);
-    }
-
-    void adicionarSaldo(float valor) {
-        saldo += valor;
-    }
-
-    void sacar(float valor) {
-        saldo -= valor;
-    }
-}
+Os exemplos estão em [`01-Fundamentos/primeiro-programa/src/dia02`](01-Fundamentos/primeiro-programa/src/dia02). O resumo do dia e as instruções para execução estão no [README do Dia 02](01-Fundamentos/primeiro-programa/README-dia02.md).
