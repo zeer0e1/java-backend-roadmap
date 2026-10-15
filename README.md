@@ -34,7 +34,7 @@ Criação de uma classe `ContaBancaria` com:
 Exemplo:
 
 ```java
-public class ContaBancaria {
+public class dia01.ContaBancaria {
 
     String titular;
     float saldo;
