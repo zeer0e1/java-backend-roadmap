@@ -1,3 +1,5 @@
+package dia01;
+
 public class ContaBancaria {
     String titular;
     float saldo;
