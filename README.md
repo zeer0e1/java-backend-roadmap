@@ -35,3 +35,16 @@ Conteúdos praticados:
 - variáveis de referência apontando para o mesmo objeto.
 
 Os exemplos estão em [`01-Fundamentos/primeiro-programa/src/dia02`](01-Fundamentos/primeiro-programa/src/dia02). O resumo do dia e as instruções para execução estão no [README do Dia 02](01-Fundamentos/primeiro-programa/README-dia02.md).
+
+## ✅ Dia 03 — Estruturas condicionais
+
+Conteúdos praticados:
+
+- `if`, `else if` e `else`;
+- operador ternário;
+- operadores lógicos `&&`, `||` e `!`;
+- `switch` tradicional, `break`, `default` e fall-through;
+- `switch` moderno com `->`;
+- `instanceof` e herança.
+
+Os exemplos e exercícios estão em [`01-Fundamentos/primeiro-programa/src/dia03`](01-Fundamentos/primeiro-programa/src/dia03). O resumo do dia, os pontos de atenção e as instruções para execução estão no [README do Dia 03](01-Fundamentos/primeiro-programa/README-dia03.md).
