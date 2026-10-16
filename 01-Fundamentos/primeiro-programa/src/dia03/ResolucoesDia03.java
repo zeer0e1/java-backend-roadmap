@@ -43,9 +43,9 @@ public class ResolucoesDia03 {
                 System.out.println("Outro nível");
         }
 
-        Animal animal = new Gato();
-        System.out.println(animal instanceof Animal); // true
-        System.out.println(animal instanceof Gato);   // true
+        AnimalResposta animal = new GatoResposta();
+        System.out.println(animal instanceof AnimalResposta); // true
+        System.out.println(animal instanceof GatoResposta);   // true
     }
 
     private static void classificarNota(double nota) {
@@ -60,8 +60,9 @@ public class ResolucoesDia03 {
     }
 }
 
-class Animal {
+// Nomes próprios evitam conflito com as classes do exemplo InstanceofHeranca.
+class AnimalResposta {
 }
 
-class Gato extends Animal {
+class GatoResposta extends AnimalResposta {
 }
